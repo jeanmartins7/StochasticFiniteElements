@@ -53,7 +53,7 @@ for p = 1: ns
     
     [U,t]=time_response(M3,Kt,C3,1, uo);%Deflexão na extremidade da viga
     
-    figure(2)
+    figure(3)
     plot(t,U(:,end-1));
     xlabel('Tempo[s]','Interpreter','latex','fontsize',16)
     ylabel('$u_{n}$[m]','Interpreter','latex','fontsize',16)
